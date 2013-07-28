@@ -1,0 +1,500 @@
+   98  g++ -m32 start.cpp 
+   99  g++ -m32 start.cpp 
+  100  g++ -m32 start.cpp 
+  101  ./a.out 
+  102  ./a.out 
+  103  g++ -m32 start.cpp 
+  104  g++ -m32 start.cpp 
+  105  ./a.out 
+  106  g++ -m32 start.cpp 
+  107  ./a.out 
+  108  g++ -m32 start.cpp 
+  109  g++ -m32 start.cpp 
+  110  g++ -m32 start.cpp 
+  111  g++ -m32 start.cpp 
+  112  g++ -m32 start.cpp 
+  113  g++ -m32 start.cpp 
+  114  g++ -m32 start.cpp 
+  115  g++ -m32 start.cpp 
+  116  g++ -m32 start.cpp 
+  117  g++ -m32 start.cpp 
+  118  ./a.our
+  119  ./a.out
+  120  ./a.out
+  121  g++ -m32 start.cpp 
+  122  ./a.out
+  123  g++ -h
+  124  gdb a.out
+  125  gdb a.out
+  126  gdb a.out
+  127  g++ -m32 start.cpp 
+  128  g++ -m32 start.cpp 
+  129  ./a.out
+  130  gdb a.out
+  131  g++ -m32 start.cpp 
+  132  gdb a.out
+  133  gdb a.out
+  134  g++ -m32 start.cpp 
+  135  g++ -m32 start.cpp 
+  136  ./a.out
+  137  gdb  a.out 
+  138  g++ -m32 start.cpp 
+  139  ./a.out
+  140  ./a.out
+  141  gdb a.out
+  142  gdb -g a.out
+  143  g++ -m32 -g start.cpp 
+  144  g++ -m32 -g start.cpp 
+  145  gdb a.out
+  146  g++ -m32 -g start.cpp 
+  147  g++ -m32 -g start.cpp 
+  148  g++ --help
+  149  g++ -m32 -g start.cpp 
+  150  gdb a.out
+  151  gdb a.out
+  152  gdb a.out
+  153  gdb a.out
+  154  gdb a.out
+  155  g++ -gdwarf-2 -g3 -m32 start.cpp 
+  156  gdb -nw a.out
+  157  g++ -gdwarf-4 -g3 -m32 start.cpp -o start
+  158  gcc -gdwarf-4 -g3 -m32 start.cpp -o start
+  159  gcc -gdwarf-3 -g3 -m32 start.cpp -o start
+  160  gcc -gdwarf-2 -g3 -m32 start.cpp -o start
+  161  gcc -gdwarf-2 -g3 -m32 start.cpp -o start
+  162  export CFLAGS=-m32
+  163  gcc -gdwarf-2 -g3 start.cpp -o start
+  164  g++ -gdwarf-4 -g3 -m32 start.cpp -o start
+  165  g++ -gdwarf-2 -g3 -m32 start.cpp -o start
+  166  gdb start
+  167  g++ -gdwarf-2 -g3 -m32 start.cpp -o start
+  168  ./start
+  169  ./start
+  170  g++ -gdwarf-2 -g3 -m32 start.cpp -o start
+  171  ./start
+  172  gdb start
+  173  ./start
+  174  gdb start
+  175  g++ -gdwarf-2 -g3 -m32 start.cpp -o start
+  176  gdb start
+  177  ls -al
+  178  vi gdb.txt 
+  179  rm untitled 
+  180  vi start.dSYM/
+  181  cd start.dSYM/
+  182  ls
+  183  cd Contents/
+  184  ls
+  185  cd Resources/
+  186  s
+  187  ls
+  188  cd DWARF/
+  189  ls
+  190  ls -al
+  191  start
+  192  ./start
+  193  chmod u+x start
+  194  ./start
+  195  gdb start
+  196  cd .
+  197  cd ..
+  198  cd ..
+  199  cd ..
+  200  cd ..
+  201  ;s
+  202  ls
+  203  rm a.out
+  204  rm a.out.dSYM/
+  205  rm -rf a.out.dSYM/
+  206  ls
+  207  rm -rf start.dSYM/
+  208  clear
+  209  ls
+  210  g++ -gdwarf-2 -g3 -m32 start.cpp -o start
+  211  ./start
+  212  gdb start
+  213  clear
+  214  ls
+  215  g++ -gdwarf-2 -g3 -m32 frameName.cpp -o frameName
+  216  g++ -gdwarf-2 -g3 -m32 frameName.cpp -o frameName
+  217  ./frameName
+  218  g++ -gdwarf-2 -g3 -m32 frameName.cpp -o frameName
+  219  ./frameName
+  220  g++ -gdwarf-2 -g3 -m32 frameName.cpp -o frameName
+  221  g++ -gdwarf-2 -g3 -m32 frameName.cpp -o frameName
+  222  ./frameName
+  223  gdb frameName
+  224  clear
+  225  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp.cpp -o printTriangle
+  226  ls
+  227  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  228  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  229  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  230  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  231  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  232  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  233  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  234  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  235  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  236  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  237  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  238  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  239  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  240  ./printTriangle
+  241  ./printTriangle
+  242  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  243  ./printTriangle
+  244  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  245  ./printTriangle
+  246  ./printTriangle
+  247  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  248  ./printTriangle
+  249  ./printTriangle
+  250  clear
+  251  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  252  ./printTriangle
+  253  ./printTriangle
+  254  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  255  g++ -gdwarf-2 -g3 -m32 printTriangle.cpp -o printTriangle
+  256  ./printTriangle
+  257  ls
+  258  ls
+  259  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  260  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  261  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  262  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  263  ./personal_struct
+  264  ./personal_struct
+  265  ./personal_struct
+  266  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  267  ./personal_struct
+  268  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  269  ./personal_struct
+  270  ./personal_struct
+  271  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  272  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  273  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  274  ./personal_struct
+  275  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  276  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  277  ./personal_struct
+  278  ./personal_struct
+  279  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  280  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  281  ./personal_struct
+  282  ./personal_struct
+  283  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  284  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  285  ./personal_struct
+  286  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  287  ./personal_struct
+  288  /Users/balajisampath/Documents/c++/Udemy/personal_struct
+  289  /Users/balajisampath/Documents/c++/Udemy/personal_struct
+  290  /Users/balajisampath/Documents/c++/Udemy/personal_struct
+  291  /Users/balajisampath/Documents/c++/Udemy/personal_struct
+  292  /Users/balajisampath/Documents/c++/Udemy/personal_struct
+  293  ls
+  294  ls
+  295  cd C++
+  296  ls
+  297  cd Documents/
+  298  cd c++
+  299  ls
+  300  cd Udemy/
+  301  ls
+  302  history
+  303  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  304  gdb personal_struct
+  305  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  306  g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+  307  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  308  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  309  ./personal_struct
+  310  ./personal_struct_2
+  311  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  312  ./personal_struct_2
+  313  gdb personal_struct_2
+  314  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  315  ./personal_struct_2
+  316  gdb personal_struct_2
+  317  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  318  ./personal_struct_2
+  319  gdb personal_struct_2
+  320  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  321  gdb personal_struct_2
+  322  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  323  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  324  gdb personal_struct_2
+  325  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  326  ./personal_struct_2
+  327  gdb personal_struct_2
+  328  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  329  gdb personal_struct_2
+  330  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  331  ./personal_struct_2
+  332  gdb personal_struct_2
+  333  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  334  ./personal_struct_2
+  335  gdb personal_struct_2
+  336  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  337  gdb personal_struct_2
+  338  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  339  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  340  ./personal_struct_2
+  341  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  342  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  343  ./personal_struct_2
+  344  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  345  ./personal_struct_2
+  346  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  347  ./personal_struct_2
+  348  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  349  ./personal_struct_2
+  350  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  351  ./personal_struct_2
+  352  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  353  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  354  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  355  ./personal_struct_2
+  356  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  357  ./personal_struct_2
+  358  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  359  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  360  ./personal_struct_2
+  361  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  362  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  363  ./personal_struct_2
+  364  gdb personal_struct_2
+  365  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  366  gdb personal_struct_2
+  367  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  368  ./personal_struct_2
+  369  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  370  ./personal_struct_2
+  371  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  372  ./personal_struct_2
+  373  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  374  ./personal_struct_2
+  375  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  376  ./personal_struct_2
+  377  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  378  ./personal_struct_2
+  379  g++ -gdwarf-2 -g3 -m32 pointer_struct_dynamic.cpp -o dynamic_shit
+  380  g++ -gdwarf-2 -g3 -m32 personal_struct_2.cpp -o personal_struct_2
+  381  g++ -gdwarf-2 -g3 -m32 pointer_struct_dynamic.cpp -o dynamic_shit
+  382  ./dynamic_shit
+  383  gdb dynamic_shit
+  384  gdb dynamic_shit
+  385  ls
+  386  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  387  ./pointers_intro
+  388  gdb pointers_intro
+  389  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  390  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  391  ./pointers_intro
+  392  ./pointers_intro
+  393  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  394  ./pointers_introt
+  395  ./pointers_intro
+  396  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  397  ./pointers_intro
+  398  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  399  ./pointers_intro
+  400  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  401  ./pointers_intro
+  402  ./pointers_intro
+  403  ./pointers_intro
+  404  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  405  ./pointers_intro
+  406  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  407  ./pointers_intro
+  408  ./pointers_intro
+  409  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  410  ./pointers_intro
+  411  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  412  clear
+  413  ls
+  414  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  415  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  416  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  417  ./pointers_intro
+  418  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  419  ./pointers_intro
+  420  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  421  g++ -gdwarf-2 -g3 -m32 pointers_intro.cpp -o pointers_intro
+  422  ./pointers_intro
+  423  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  424  ./nameofarray_pointer
+  425  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  426  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  427  ./nameofarray_pointer
+  428  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  429  ./nameofarray_pointer
+  430  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  431  ./nameofarray_pointer
+  432  ./nameofarray_pointer
+  433  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  434  ./nameofarray_pointer
+  435  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  436  ./nameofarray_pointer
+  437  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  438  ./nameofarray_pointer
+  439  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  440  ./nameofarray_pointer
+  441  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  442  ./nameofarray_pointer
+  443  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  444  ./nameofarray_pointer
+  445  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  446  ./nameofarray_pointer
+  447  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  448  ./nameofarray_pointer
+  449  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  450  ./nameofarray_pointer
+  451  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  452  ./nameofarray_pointer
+  453  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  454  ./nameofarray_pointer
+  455  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  456  ./nameofarray_pointer
+  457  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  458  ./nameofarray_pointer
+  459  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  460  ./nameofarray_pointer
+  461  g++ -gdwarf-2 -g3 -m32 nameofarray_pointer.cpp -o nameofarray_pointer
+  462  ./nameofarray_pointer
+  463  clear
+  464  g++ -gdwarf-2 -g3 -m32 dynamic_memory.cpp -o dynamic_memory
+  465  ./dynamic_memory
+  466  ./dynamic_memory
+  467  ./dynamic_memory
+  468  ./dynamic_memory
+  469  g++ -gdwarf-2 -g3 -m32 dynamic_memory.cpp -o dynamic_memory
+  470  ./dynamic_memory
+  471  g++ -gdwarf-2 -g3 -m32 dynamic_memory.cpp -o dynamic_memory
+  472  ./dynamic_memory
+  473  ./dynamic_memory
+  474  g++ -gdwarf-2 -g3 -m32 dynamic_memory.cpp -o dynamic_memory
+  475  g++ -gdwarf-2 -g3 -m32 dynamic_memory.cpp -o dynamic_memory
+  476  ./dynamic_memory
+  477  ./dynamic_memory
+  478  g++ -gdwarf-2 -g3 -m32 dynamic_memory.cpp -o dynamic_memory
+  479  g++ -gdwarf-2 -g3 -m32 dynamic_memory.cpp -o dynamic_memory
+  480  ./dynamic_memory
+  481  g++ -gdwarf-2 -g3 -m32 dynamic_memory.cpp -o dynamic_memory
+  482  ./dynamic_memory
+  483  g++ -gdwarf-2 -g3 -m32 dynamic_memory.cpp -o dynamic_memory
+  484  ./dynamic_memory
+  485  g++ -gdwarf-2 -g3 -m32 dynamic_memory.cpp -o dynamic_memory
+  486  ./dynamic_memory
+  487  ./dynamic_memory
+  488  ./dynamic_memory
+  489  g++ -gdwarf-2 -g3 -m32 dynamic_memory.cpp -o dynamic_memory
+  490  ./dynamic_memory
+  491  g++ -gdwarf-2 -g3 -m32 dynamic_memory.cpp -o dynamic_memory
+  492  ./dynamic_memory
+  493  clear
+  494  ls -al
+  495  ls -al *.cpp
+  496  vi personal_struct.cpp 
+  497  vi personal_struct_2.cpp 
+  498  clear
+  499  cd Documents/
+  500  ls
+  501  clear
+  502  cd c++
+  503  ls
+  504  cd u
+  505  cd Udemy/
+  506  ls strings_char_pointer.cpp 
+  507  g++ -gdwarf-2 -g3 -m32 strings_char_pointer.cpp  -o strings_char_pointer
+  508  ./strings_char_pointer
+  509  g++ -gdwarf-2 -g3 -m32 function_pointers.cpp  -o function_pointers
+  510  ./strings_char_pointer
+  511  g++ -gdwarf-2 -g3 -m32 function_pointers.cpp  -o function_pointers
+  512  ./function_pointers
+  513  g++ -gdwarf-2 -g3 -m32 function_pointers.cpp  -o function_pointers
+  514  ./function_pointers
+  515  g++ -gdwarf-2 -g3 -m32 function_pointers.cpp  -o function_pointers
+  516  g++ -gdwarf-2 -g3 -m32 classes.cpp -o classes
+  517  ./classes
+  518  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  519  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  520  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  521  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  522  ./classes
+  523  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  524  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  525  rm - rf classes
+  526  ls
+  527  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  528  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  529  ./classes
+  530  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  531  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  532  ./classes
+  533  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  534  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  535  ./classes
+  536  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  537  ./classes
+  538  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  539  ./classes
+  540  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  541  ./classes
+  542  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  543  ./classes
+  544  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  545  ./classes
+  546  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  547  ./classes
+  548  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  549  ./classes
+  550  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  551  ./classes
+  552  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  553  ./classes
+  554  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  555  ./classes
+  556  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  557  ./classes
+  558  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  559  ./classes
+  560  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  561  ./classes
+  562  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  563  ./classes
+  564  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  565  ./classes
+  566  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  567  ./classes
+  568  gdb classes
+  569  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  570  gdb classes
+  571  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  572  ./classes
+  573  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  574  ./classes
+  575  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  576  ./classes
+  577  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  578  ./classes
+  579  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  580  ./classes
+  581  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  582  ./classes
+  583  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  584  ./classes
+  585  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  586  ./classes
+  587  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  588  ./classes
+  589  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  590  ./classes
+  591  g++ -gdwarf-2 -g3 -m32 classes.cpp personalData.h personalData.cpp -o classes
+  592  gdb classes
+  593  ./classes
+  594  gdb classes
+  595  history
+  596  ls
+  597  history >> c++_g++_crap.txt

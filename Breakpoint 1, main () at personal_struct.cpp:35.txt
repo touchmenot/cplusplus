@@ -1,0 +1,137 @@
+Breakpoint 1, main () at personal_struct.cpp:35
+35	    personalData *p = person;
+(gdb) s
+37	    cout << p->name << endl;
+(gdb) p p
+$1 = (personalData *) 0xbffffb00
+(gdb) p *p
+$2 = {
+  name = {
+    _M_dataplus = {
+      <std::allocator<char>> = {
+        <__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>},
+      members of std::string::_Alloc_hider:
+      _M_p = 0x12d1ec "Balaji"
+    }
+  },
+  surname = {
+    _M_dataplus = {
+      <std::allocator<char>> = {
+        <__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>},
+      members of std::string::_Alloc_hider:
+      _M_p = 0x12d23c "Sampath"
+    }
+  },
+  telephoneNumber = {
+    _M_dataplus = {
+      <std::allocator<char>> = {
+        <__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>},
+      members of std::string::_Alloc_hider:
+      _M_p = 0x12d25c "(607) xxx-xxxx"
+    }
+  },
+  age = 45
+}
+(gdb) print p
+$3 = (personalData *) 0xbffffb00
+(gdb) list
+32	    cout << person->surname << endl;
+33	    cout << (person+1)->name << endl;
+34	    */
+35	    personalData *p = person;
+36
+37	    cout << p->name << endl;
+38
+39	    test(p);
+40
+41	    cout << p->name << endl;
+
+********NOTICE THE POINTER P BEING PASSED AND OBSERVE THE LOCAL VALUE OF PERSON IN THE METHOD TEST*********
+
+(gdb) break 48
+Breakpoint 2 at 0x2432: file personal_struct.cpp, line 48.
+(gdb) s
+Balaji
+39      test(p);
+(gdb) p p
+$4 = (personalData *) 0xbffffb00
+(gdb) s
+
+Breakpoint 2, test (person=0xbffffb00) at personal_struct.cpp:49
+49      person->name = "Hello I've changed my name to bAlAjI";
+(gdb) p person
+$5 = (personalData *) 0xbffffb00
+
+******************* person is a pointer with value 0xbffffb00, when i invoke the value of operator on the person and print, the entire struct is shown as it has the name surnmae age phone and age, NOW when person is added with 1 i.e *(person+1) pointer arithmetic, it moves on to the next struct that is person[1] and shows all the details of that struct, notice the value of person+1 = 0xbffffb10 its 10 more in hex than person which was 0xbffffb00, so basically pointer arithmetic increments this way since p was a struct when its incremented p + sizeof(p) is equal to increment by 1, NOW notice the difference between *(person+1)  and *person+1, the gdb complains, structure itself cannot be added with 1, since that's plain type error, when compiled look what happens:(cout << *person+1.name << endl;)
+
+Matrix-2:Udemy balajisampath$ g++ -gdwarf-2 -g3 -m32 personal_struct.cpp -o personal_struct
+personal_struct.cpp: In function ‘int main()’:
+personal_struct.cpp:28: error: no match for ‘operator+’ in ‘*(personalData*)(& person) + 1’
+
+HENCE IT IS VERY IMPORTANT TO PERFORM POINTER ARITHMETIC ON THE ADDRESS STORED, FOR EX personalData *p; *(p+1) instead of *p+1 
+
+****************
+
+
+(gdb) p *person+1
+Structure has no component named operator+.
+
+(gdb) p person+1
+$6 = (personalData *) 0xbffffb10
+
+(gdb) p *(person)
+$8 = {
+  name = {
+    _M_dataplus = {
+      <std::allocator<char>> = {
+        <__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>},
+      members of std::string::_Alloc_hider:
+      _M_p = 0x12d1ec "Balaji"
+    }
+  },
+  surname = {
+    _M_dataplus = {
+      <std::allocator<char>> = {
+        <__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>},
+      members of std::string::_Alloc_hider:
+      _M_p = 0x12d23c "Sampath"
+    }
+  },
+  telephoneNumber = {
+    _M_dataplus = {
+      <std::allocator<char>> = {
+        <__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>},
+      members of std::string::_Alloc_hider:
+      _M_p = 0x12d25c "(607) xxx-xxxx"
+    }
+  },
+  age = 45
+}
+(gdb) p *(person+1)
+$9 = {
+  name = {
+    _M_dataplus = {
+      <std::allocator<char>> = {
+        <__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>},
+      members of std::string::_Alloc_hider:
+      _M_p = 0x12d20c "Balaji First instance"
+    }
+  },
+  surname = {
+    _M_dataplus = {
+      <std::allocator<char>> = {
+        <__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>},
+      members of std::string::_Alloc_hider:
+      _M_p = 0xacd72bc8 ""
+    }
+  },
+  telephoneNumber = {
+    _M_dataplus = {
+      <std::allocator<char>> = {
+        <__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>},
+      members of std::string::_Alloc_hider:
+      _M_p = 0xacd72bc8 ""
+    }
+  },
+  age = -1128
+}

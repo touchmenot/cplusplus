@@ -1,0 +1,47 @@
+Breakpoint 1, main () at personal_struct.cpp:35
+35	    personalData *p = person;
+(gdb) s
+37	    cout << p->name << endl;
+(gdb) p p
+$1 = (personalData *) 0xbffffb00
+(gdb) p *p
+$2 = {
+  name = {
+    _M_dataplus = {
+      <std::allocator<char>> = {
+        <__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>},
+      members of std::string::_Alloc_hider:
+      _M_p = 0x12d1ec "Balaji"
+    }
+  },
+  surname = {
+    _M_dataplus = {
+      <std::allocator<char>> = {
+        <__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>},
+      members of std::string::_Alloc_hider:
+      _M_p = 0x12d23c "Sampath"
+    }
+  },
+  telephoneNumber = {
+    _M_dataplus = {
+      <std::allocator<char>> = {
+        <__gnu_cxx::new_allocator<char>> = {<No data fields>}, <No data fields>},
+      members of std::string::_Alloc_hider:
+      _M_p = 0x12d25c "(607) xxx-xxxx"
+    }
+  },
+  age = 45
+}
+(gdb) print p
+$3 = (personalData *) 0xbffffb00
+(gdb) list
+32	    cout << person->surname << endl;
+33	    cout << (person+1)->name << endl;
+34	    */
+35	    personalData *p = person;
+36
+37	    cout << p->name << endl;
+38
+39	    test(p);
+40
+41	    cout << p->name << endl;

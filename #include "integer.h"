@@ -1,0 +1,7 @@
+#include "integer.h"
+
+int main()
+{
+	Integer a(50);
+	cout << a.getNum() << endl;
+}

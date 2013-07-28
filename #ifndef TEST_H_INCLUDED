@@ -1,0 +1,12 @@
+#ifndef TEST_H_INCLUDED
+
+
+class A
+{
+	
+};
+
+class B
+{
+	int secretValue;	
+};
